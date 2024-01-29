@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     e.preventDefault();
     const taskInput = document.querySelector('input[name="taskEntry"]');
     console.log(taskInput.value);
+    // my creatmusic element needs to be inside an event listener
     generateList(taskInput);
   });
 });
